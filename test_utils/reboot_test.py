@@ -7,9 +7,8 @@ import re
 import unittest
 import os
 
-
-# __author__ = 'XIAHUALOU'
-# __email__ = 'hualoux.xia@intel.com'
+# __author__ = 'zhangxinhuicf'
+# __email__ = 'zhangxinhui'
 
 
 class MyTest(unittest.TestCase):
