@@ -3,8 +3,8 @@ import paramiko
 from tools.log import logger
 from tools.tool_params import TIMEOUT
 
-# __author__ = 'XIAHUALOU'
-# __email__ = 'hualoux.xia@intel.com'
+# __author__ = 'zhangxinhui'
+# __email__ = 'zhangxinhui'
 
 
 class RemoteConn:
