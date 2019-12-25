@@ -16,7 +16,7 @@ class MyTest(unittest.TestCase):
     def setUpClass(cls):
         pass
 
-    def preparation(self, log_details=HOST_LOG_DETAIL, reeset=False):  # 不传reset是登录,传了True为reset ioc
+    def preparation(self, log_details=HOST_LOG_DETAIL, reset=False):  # 不传reset是登录,传了True为reset ioc
         try:
             if os.system("ping -c 1 {}".format(log_details.get('ip'))) == 0:
                 with RemoteConn(**log_details) as command_line:
